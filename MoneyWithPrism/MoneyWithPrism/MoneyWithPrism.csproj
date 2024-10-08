@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Prism.Unity" Version="8.1.97" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\MoneyWithPrism.Loans\MoneyWithPrism.Loans.csproj" />
+    <ProjectReference Include="..\..\MoneyWithPrism.Modules.Savings\MoneyWithPrism.Modules.Savings.csproj" />
+    <ProjectReference Include="..\MoneyWithPrism.Core\MoneyWithPrism.Core.csproj" />
+    <ProjectReference Include="..\Modules\MoneyWithPrism.Modules.ModuleName\MoneyWithPrism.Modules.ModuleName.csproj" />
+    <ProjectReference Include="..\Services\MoneyWithPrism.Services.Interfaces\MoneyWithPrism.Services.Interfaces.csproj" />
+    <ProjectReference Include="..\Services\MoneyWithPrism.Services\MoneyWithPrism.Services.csproj" />
+    <ProjectReference Include="..\Tests\MoneyWithPrism.Modules.ModuleName.Tests\MoneyWithPrism.Modules.ModuleName.Tests.csproj" />
+  </ItemGroup>
+</Project>

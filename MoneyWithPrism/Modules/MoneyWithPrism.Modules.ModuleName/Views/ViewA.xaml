@@ -1,0 +1,10 @@
+﻿<UserControl x:Class="MoneyWithPrism.Modules.ModuleName.Views.ViewA"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:MoneyWithPrism.Modules.ModuleName.Views"
+             xmlns:prism="http://prismlibrary.com/"
+             prism:ViewModelLocator.AutoWireViewModel="True" >
+    <Grid>
+
+    </Grid>
+</UserControl>

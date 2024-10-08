@@ -1,0 +1,81 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{51EA21F4-3B79-4AA6-ADE0-5B5733585F2A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoneyWithPrism.Modules.ModuleName.Tests", "MoneyWithPrism\Tests\MoneyWithPrism.Modules.ModuleName.Tests\MoneyWithPrism.Modules.ModuleName.Tests.csproj", "{2A3834F7-8D4D-4F80-8EC3-06F61AAE45A7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{79AB2883-B4D9-4F61-B65A-E2AA6857E22C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoneyWithPrism.Modules.ModuleName", "MoneyWithPrism\Modules\MoneyWithPrism.Modules.ModuleName\MoneyWithPrism.Modules.ModuleName.csproj", "{06A972D5-F48D-49F8-A548-8BA4792057C0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{43CA1094-259D-4C28-8AFB-BD9270ECAAB9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoneyWithPrism.Services", "MoneyWithPrism\Services\MoneyWithPrism.Services\MoneyWithPrism.Services.csproj", "{75A54254-1600-498F-84B0-8B1EF5EC67FF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoneyWithPrism.Services.Interfaces", "MoneyWithPrism\Services\MoneyWithPrism.Services.Interfaces\MoneyWithPrism.Services.Interfaces.csproj", "{9BF96FA2-617D-435D-8956-A3BA6DA87D9C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoneyWithPrism", "MoneyWithPrism\MoneyWithPrism\MoneyWithPrism.csproj", "{EEC10669-5F26-4A78-8284-316DED9FF1C6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoneyWithPrism.Core", "MoneyWithPrism\MoneyWithPrism.Core\MoneyWithPrism.Core.csproj", "{985100B5-C06E-4E62-97A5-372FC6FCC3FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneyWithPrism.Modules.Savings", "MoneyWithPrism.Modules.Savings\MoneyWithPrism.Modules.Savings.csproj", "{4007F496-5E8D-4CF1-A18C-5922504D82FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneyWithPrism.Loans", "MoneyWithPrism.Loans\MoneyWithPrism.Loans.csproj", "{94939D1D-C37F-4185-8035-2E3EC1B0C1EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A3834F7-8D4D-4F80-8EC3-06F61AAE45A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A3834F7-8D4D-4F80-8EC3-06F61AAE45A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A3834F7-8D4D-4F80-8EC3-06F61AAE45A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A3834F7-8D4D-4F80-8EC3-06F61AAE45A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06A972D5-F48D-49F8-A548-8BA4792057C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06A972D5-F48D-49F8-A548-8BA4792057C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06A972D5-F48D-49F8-A548-8BA4792057C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06A972D5-F48D-49F8-A548-8BA4792057C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75A54254-1600-498F-84B0-8B1EF5EC67FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75A54254-1600-498F-84B0-8B1EF5EC67FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75A54254-1600-498F-84B0-8B1EF5EC67FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75A54254-1600-498F-84B0-8B1EF5EC67FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BF96FA2-617D-435D-8956-A3BA6DA87D9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BF96FA2-617D-435D-8956-A3BA6DA87D9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BF96FA2-617D-435D-8956-A3BA6DA87D9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BF96FA2-617D-435D-8956-A3BA6DA87D9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEC10669-5F26-4A78-8284-316DED9FF1C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEC10669-5F26-4A78-8284-316DED9FF1C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEC10669-5F26-4A78-8284-316DED9FF1C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEC10669-5F26-4A78-8284-316DED9FF1C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{985100B5-C06E-4E62-97A5-372FC6FCC3FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{985100B5-C06E-4E62-97A5-372FC6FCC3FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{985100B5-C06E-4E62-97A5-372FC6FCC3FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{985100B5-C06E-4E62-97A5-372FC6FCC3FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4007F496-5E8D-4CF1-A18C-5922504D82FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4007F496-5E8D-4CF1-A18C-5922504D82FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4007F496-5E8D-4CF1-A18C-5922504D82FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4007F496-5E8D-4CF1-A18C-5922504D82FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94939D1D-C37F-4185-8035-2E3EC1B0C1EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94939D1D-C37F-4185-8035-2E3EC1B0C1EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94939D1D-C37F-4185-8035-2E3EC1B0C1EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94939D1D-C37F-4185-8035-2E3EC1B0C1EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2A3834F7-8D4D-4F80-8EC3-06F61AAE45A7} = {51EA21F4-3B79-4AA6-ADE0-5B5733585F2A}
+		{06A972D5-F48D-49F8-A548-8BA4792057C0} = {79AB2883-B4D9-4F61-B65A-E2AA6857E22C}
+		{75A54254-1600-498F-84B0-8B1EF5EC67FF} = {43CA1094-259D-4C28-8AFB-BD9270ECAAB9}
+		{9BF96FA2-617D-435D-8956-A3BA6DA87D9C} = {43CA1094-259D-4C28-8AFB-BD9270ECAAB9}
+		{4007F496-5E8D-4CF1-A18C-5922504D82FA} = {79AB2883-B4D9-4F61-B65A-E2AA6857E22C}
+		{94939D1D-C37F-4185-8035-2E3EC1B0C1EC} = {79AB2883-B4D9-4F61-B65A-E2AA6857E22C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {65D65EF9-A1BD-45CD-8CF4-76E2A5D92BFD}
+	EndGlobalSection
+EndGlobal
